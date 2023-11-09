@@ -1,0 +1,5 @@
+str1 = input("enter your name\n")
+str2 = int(input("Enter your age\n"))
+print(f"your are welcome {str1}")
+print(type(f"your current age is {str2}"))
+print(f"After 5yrs you will be {str2 + 5}")
