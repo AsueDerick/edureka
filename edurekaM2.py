@@ -4,12 +4,33 @@
 #
 # # QUESTION 2
 # list1 = ["john","peter"]
-# print(f"The output is the list {list1}")
+# print(f"The output is a list: {list1}")
 
 # QUESTION 3
+import re
+
+# username = input("Enter your username:\n ")
+# password = input("Enter your pwd: \n")
 
 
-
+# def text_password(pwd):
+#     if len(pwd) < 6 or len(pwd) > 12:
+#         return False
+#     if not re.search("[a-z]", pwd):
+#         return False
+#     if not re.search("[A-Z]", pwd):
+#         return False
+#     if not re.search("[0-9]", pwd):
+#         return False
+#     if not re.search("[$#@]", pwd):
+#         return False
+#     return True
+#
+#
+# if text_password(password):
+#     print("Registration successful! Welcome,", username)
+# else:
+#     print("Invalid pwd! Please follow the specified criteria for the pwd.")
 
 # QUESTION 4
 # a = [4, 7, 3, 2, 5, 9]
@@ -85,3 +106,14 @@
 # print(list2)
 
 # QUESTION 13
+# import random
+# list1 = [num for num in range(1, 1000 + 1) if num % 5 == 0 and num % 7 == 0]
+# random_numbers = random.sample(list1, 5)
+# print("Random Numbers Divisible by 5 and 7:", random_numbers)
+
+# QUESTION 14
+# number = int(input("Enter a number > 0: \n"))
+# result = 0
+# for i in range(1, number + 1):
+#     result += i / (i + 1)
+# print(round(result, 2))
